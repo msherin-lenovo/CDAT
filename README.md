@@ -2,7 +2,7 @@ For the CDAT, please perform the following:
 
 •    Download the CDAT Tool
 
-•    Unzip file and run CDAT1.120 exe app
+•    Unzip file and run CDAT1.22 exe app
 
 •    Run as administrator, if you see pop-up, please download newer version.
 
