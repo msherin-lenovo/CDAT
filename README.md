@@ -1,6 +1,6 @@
 For the CDAT, please perform the following:
 
-•    Download the CDAT Tool
+•    Download the CDAT Tool: https://github.com/msherin-lenovo/CDAT
 
 •    Unzip file and run CDAT1.24 exe app
 
