@@ -15,7 +15,8 @@ Wait for it to finish.
 Press the Windows key, type PowerShell, right-click it and choose Run as Administrator → Yes.
 
 Type this and press Enter (type A if prompted):
-set-executionpolicy unrestricted
+"set-executionpolicy unrestricted"
+
 Go to the folder where you extracted the files:
 cd "C:\path\to\the\folder"
 Run the tool:
