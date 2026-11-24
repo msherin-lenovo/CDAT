@@ -1,15 +1,26 @@
-For the CDAT, please perform the following:
+**Step 1 – Extract the files**
+Unzip the attached CDATv330.zip to any folder (e.g. your Desktop). Keep all files together — the "Templates" folder must stay in the same folder as the tool.
 
-•    Download the CDAT Tool: https://github.com/msherin-lenovo/CDAT
+**Step 2 – Run the tool (choose one method)**
 
-•    Unzip file and run CDAT1.26 exe app
+**Option A** – Easiest (recommended):
 
-•    Run as administrator, if you see pop-up, please download newer version.
+Open the folder and double-click CDATv330.exe.
+Click Yes if prompted.
+In the window that appears, type 1 and press Enter (collects all data).
+Wait for it to finish.
 
-•    Selection Option - All Data Collection
+**Option B** – PowerShell script:
 
-•    For number of Event days, please input 30.
+Press the Windows key, type PowerShell, right-click it and choose Run as Administrator → Yes.
+Type this and press Enter (type A if prompted):
+set-executionpolicy unrestricted
+Go to the folder where you extracted the files:
+cd "C:\path\to\the\folder"
+Run the tool:
+.\CDATv330.ps1
+Type 1 and press Enter (collects all data), then wait for it to finish.
 
-•    A zip file will be created in the folder.
-
-•    Please send me the zip file that was created via your preferred sharing platform, or transferxl.com or google.drive or attach to case.
+**Step 3 – Send us the result**
+A .zip file will be created in that same folder, named like:
+Lenovo-CDAT330-All-1-[serial]-[model]-[date].zip
